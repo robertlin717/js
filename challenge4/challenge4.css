@@ -1,0 +1,65 @@
+body {
+  width: 430px;
+  margin: 4% auto;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 5px;
+  font-size: 1.8rem;
+}
+
+.calculator {
+  padding: 20px;
+  box-shadow: rgb(0, 139, 139);
+  border-radius: 1px;
+}
+
+.input1 {
+  border: 2px solid #ddd;
+  background-color: pink;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 0px;
+  padding-top: 10px;
+  text-align: right;
+  font-size: 2.2rem;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.input2 {
+  border: 2px solid #ddd;
+  background-color: pink;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 0px;
+  padding-top: 10px;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 2.2rem;
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.operators {
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.button {
+  font-size: 2rem;
+  background-color: pink;
+  color:white;
+  display: inline-block;
+  border: 0px;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 40px 10px 0;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+}

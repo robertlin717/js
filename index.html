@@ -1,43 +1,26 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-	<title>To-Do List</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body>
-	<div class="container">
-		<h1>To Do List</h1>
-		<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="javascript.png" alt="" width="30" height="30" class="d-inline-block align-top">
+        Robert Lin
+      </a>
+    </div>
+  </nav>
+  <ul class="list-group list-group-flush">
 
-		</div>
+    <li class="list-group-item"><a href="challenge3/challenge3.html">Challenge 3</a></li>
+    <li class="list-group-item"><a href="challenge4/challenge4.html">Challenge 4</a></li>
+    <li class="list-group-item"><a href="challenge5/theater.html">Challenge 5</a></li>
 
-		<div class="mdl-tabs__panel is-active" id="add-item">
-			<div class="mdl-textfield mdl-js-textfield">
-				<input class="mdl-textfield__input" type="text" id="new-task">
-			</div>
-
-			<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
-				<i class="material-icons">add</i>
-			</button>
-			<ul id="incomplete-tasks">
-
-			</ul>
-			<ul id="completed-tasks" class="mdl-list">
-
-				</li>
-			</ul>
-		</div>
-
-	</div>
-	</div>
-	<script src="js/script.js"></script>
+  </ul>
 </body>
 
 </html>

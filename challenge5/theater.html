@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="theater.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <div>
+    <h1>Now Showing</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="firstdiv" class="col-sm">
+        <img id="first" style="height: 500px;width: 300px;"
+          src="https://technohoop.com/wp-content/uploads/2021/05/1620711078_113_Venom-Let-There-Be-Carnage-Trailer-Out-in-English-and.jpeg">
+        <h5 id="first-name">Venom</h5></br>
+        1
+      </div>
+      <div class="col-sm">
+        <img id="second" style="height: 500px;width: 300px;"
+          src="https://upload.wikimedia.org/wikipedia/zh/d/d6/Fast_%26_Furious_9_poster.jpg">
+        <h5 id="second-name">Fast & Furious 9</h5></br>
+        <h5>2</h5>
+      </div>
+      <div class="col-sm">
+        <img id="third" style="height: 500px;width: 300px;"
+          src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackwidow_lob_crd_05.jpg">
+        <h5 id="third-name">Black Widom</h5></br>
+        <h5>3</h5>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img id="fourth" style="height: 500px;width: 300px;"
+          src="https://lumiere-a.akamaihd.net/v1/images/p_rayaandthelastdragon_21294_83346778.jpeg">
+        <h5 id="fourth-name">Raya And The Last Dragon</h5></br>
+        <h5>1</h5>
+      </div>
+      <div class="col-sm">
+        <img id="fifth" style="height: 500px;width: 300px;"
+          src="https://upload.wikimedia.org/wikipedia/en/3/33/Luca_%282021_film%29.png">
+        <h5 id="fifth-name">Luca</h5></br>
+        <h5>2</h5>
+      </div>
+      <div class="col-sm">
+        <img id="sixth" style="height: 500px;width: 300px;"
+          src="https://upload.wikimedia.org/wikipedia/en/f/f6/Cruella_2021_film_poster.jpg">
+        <h5 id="sixth-name">Cruella</h5></br>
+        <h5>3</h5>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h4>New Movie</h4>
+    <input id="title" type="text" placeholder="Movie Name"></br>
+    <input id="poster" type="text" placeholder="Link of Movie"></br>
+    <input onclick="add()" type="button" value="Add">
+  </div>
+</body>
+
+</html>

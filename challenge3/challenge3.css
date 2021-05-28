@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: pink;
+}
+
+.main {
+  margin: 50 auto;
+  padding: 50px;
+}
+
+.contain1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.item1 {
+  background-color: darkorange;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: pink;
+}
+
+.btn {
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.reset {
+  margin: 20px auto;
+  margin-left: 100%;
+
+}
+
+
+#name1 {
+  width: 200px;
+  height: 25px;
+  border: none;
+  font-size: 20px;
+}
+
+#nameBtn1 {
+  border: none;
+  color: white;
+  background: rgb(121, 149, 177);
+  border-radius: 5px;
+}
+
+#clear1 {
+  display: flex;
+  margin-bottom: 10%;
+  justify-content: center;
+}
+
+#name2 {
+  width: 200px;
+  height: 25px;
+  border: none;
+  font-size: 20px;
+}
+
+#nameBtn2 {
+  border: none;
+  color: white;
+  font-size: 12px;
+  background: rgb(121, 149, 177);
+  border-radius: 5px;
+}
+
+ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+ul li span {
+  float: right;
+  margin-left: 10px;
+}
+
+#tens,#mins,#seconds {
+  font-size: 40px;
+}
+
+.stopbtn {
+  background: darkred;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 5px;
+  width: 130px;
+  outline: none;
+}
+.stopbtn:hover {
+  background: #fff;
+  border: solid 1px #fff;
+  color: darkred;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="challenge4.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="" id="input1">
+        <input style="width: 180px" class="input1" type="text" id="num1" />
+        <input style="width: 180px" class="input1" type="text" id="num2" />
+      </div>
+      <div class="" id="input2">
+      </div>
+      <div class="" id="input3">
+        <input style="width: 374spx" class="input2" type="text" id="display" />
+      </div>
+      <div class="operators">
+        <button id="inc" class="btn  button" onclick="add()">+</button>
+        <button id="dec" class="btn  button" onclick="sub()">
+          -
+        </button>
+        <button id="result" class="btn  button" onclick="equal()">
+          =
+        </button>
+        <button id="div" class="btn  button" onclick="div()">
+          &divide;
+        </button>
+        <button id="time" class="btn  button" onclick="time()">
+          &times;
+        </button>
+        <button id="clear" class="btn  button" onclick="reset()">
+          C
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="challenge4.js"></script>
+</html>
